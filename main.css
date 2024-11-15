@@ -1,0 +1,73 @@
+body{
+    background-color: #fffdfd;
+    /* background-size: cover; */
+}
+
+.login{
+    width:100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login .f{
+    border-radius: 20px;
+border-radius: 100px;
+}
+
+
+.form-control{
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+.form-check{
+    padding-left: 50px;
+}
+.h{
+    text-align: center;
+    font-size: large ;
+}
+
+.bt{
+    border: solid 2px rgb(69, 69, 241);
+    border-radius: 7px;
+    background-color: rgb(47, 47, 247);
+    color: #ffff;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    left: 00px;
+
+}
+/* .farst{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    text-align:right;
+    position: relative;
+    left: 50px;
+    right: -30px;
+    bottom: 40x;
+}
+input [type="text"]{
+    width: 500px;
+}
+.forms{
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+}  */
+.form-control ::placeholder{
+    color: yellow;
+
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: rgb(214, 214, 214); */
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 48px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.rido-contenr{
+    font-size: 24px;
+    padding: 8px;
+}
+
+label{
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 30px;   
+    padding-left: 20px;
+}
+.btn{
+    width: 70px;
+    height: 50px;
+    margin: 60px;
+    padding: 5px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    background: blue;
+    border-radius: 7px;
+}
